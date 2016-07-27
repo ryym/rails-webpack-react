@@ -1,2 +1,10 @@
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
+import React from 'react';
+import { render } from 'react-dom';
+import UserList from './components/UserList';
+
+window.addEventListener('load', () => {
+  const elm = document.getElementById('user-list');
+  if (elm) {
+    render(<UserList />, elm);
+  }
+})

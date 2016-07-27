@@ -1,1 +1,2 @@
-import 'imports?jQuery=jquery!jquery-ujs'
+import 'imports?jQuery=jquery!jquery-ujs';
+import './users';
