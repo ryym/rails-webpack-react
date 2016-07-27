@@ -4,5 +4,6 @@ To run:
 
 ```
 $ bundle install
+$ bin/rails db:migrare
 $ foreman start
 ```
